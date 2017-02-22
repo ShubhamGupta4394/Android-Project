@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" 
+    android:background="@drawable/back" >
+
+    <TextView
+        android:id="@+id/hed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_gravity="center"
+        android:text="Frequently Asked Questions"
+        android:layout_marginTop="-5dp"
+        android:padding="10dp"
+        android:gravity="center"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" 
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+					
+            
+                <TextView
+                    android:id="@+id/q2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="How many books can star student issue in one semister ?"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ans 2"
+                    android:textAppearance="?android:attr/textAppearanceSmall" 
+                    android:paddingBottom="5dp"
+                    android:layout_gravity="center"
+        			android:gravity="center"
+                    />
+               
+	               <TextView
+			        android:id="@+id/q3"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="Timings for issuing the book ."
+			        android:textAppearance="?android:attr/textAppearanceMedium" 
+			        android:layout_marginTop="10dp"
+			        android:layout_gravity="center"
+	       			android:gravity="center"/>
+
+               <TextView
+                   android:id="@+id/textView4"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="ans 3"
+                   android:textAppearance="?android:attr/textAppearanceSmall" 
+                   android:paddingBottom="5dp"
+                   android:layout_gravity="center"
+        			android:gravity="center"
+                   />
+			       
+	               <TextView
+			        android:id="@+id/q4"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="Can i return the book on weekends ?"
+			        android:textAppearance="?android:attr/textAppearanceMedium" 
+			        android:layout_marginTop="10dp"
+			        android:layout_gravity="center"
+	        		android:gravity="center"
+	        		/>
+
+	               <TextView
+	                   android:id="@+id/q5"
+	                   android:layout_width="wrap_content"
+	                   android:layout_height="wrap_content"
+	                   android:layout_marginTop="10dp"
+	                   android:gravity="center"
+	                   android:text="How many times can i reissue the particualar book ?"
+	                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+               <TextView
+                   android:id="@+id/textView5"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="ans 4"
+                   android:textAppearance="?android:attr/textAppearanceSmall" 
+                   android:paddingBottom="5dp"
+                   android:layout_gravity="center"
+        		   android:gravity="center"
+                   
+                   />
+	
+	               <TextView
+	                   android:id="@+id/textView7"
+	                   android:layout_width="wrap_content"
+	                   android:layout_height="wrap_content"
+	                   android:text="ans  5"
+	                   android:textAppearance="?android:attr/textAppearanceSmall" 
+	                   android:paddingBottom="5dp"
+	                   android:layout_gravity="center"
+	        		   android:gravity="center"
+	                   />
+	               
+		               <TextView
+				        android:id="@+id/q6"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="Is it possible to issue the reference overnight"
+				        android:textAppearance="?android:attr/textAppearanceMedium" 
+				        android:layout_marginTop="10dp"
+				        android:layout_gravity="center"
+		        		android:gravity="center"/>
+				
+			            <TextView
+		               android:id="@+id/textView6"
+			                   android:layout_width="wrap_content"
+			                   android:layout_height="wrap_content"
+			                   android:text="ans 6"
+			                   android:textAppearance="?android:attr/textAppearanceSmall" 
+			                   android:paddingBottom="5dp"
+			                   android:layout_gravity="center"
+			        			android:gravity="center"
+			                   />
+			               
+		               <TextView
+				        android:id="@+id/q7"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="If i forgot to submit the book for one full semister then what will be fine "
+				        android:textAppearance="?android:attr/textAppearanceMedium" 
+				        android:layout_marginTop="10dp"
+				        android:layout_gravity="center"
+		        		android:gravity="center"
+				        />
+               
+	               	<TextView
+	                   android:id="@+id/textView8"
+	                   android:layout_width="wrap_content"
+	                   android:layout_height="wrap_content"
+	                   android:text="ans 7"
+	                   android:textAppearance="?android:attr/textAppearanceSmall" 
+	                   android:paddingBottom="5dp"
+	                   android:layout_gravity="center"
+	        			android:gravity="center"
+	                   />
+               				    		    
+    </LinearLayout>
+        </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shs.vitlib"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+      <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.shs.vitlib.Login"/>
+        <activity android:name="com.shs.vitlib.Rules"/>
+        <activity android:name="com.shs.vitlib.About"/>
+        <activity android:name="com.shs.vitlib.Welcome"/>
+        <activity android:name="com.shs.vitlib.Search"/>
+        <activity android:name="com.shs.vitlib.Fine"/>
+        <activity android:name="com.shs.vitlib.Request"/>
+        <activity android:name="com.shs.vitlib.Issue"/>
+        <activity android:name="com.shs.vitlib.Faq"/>
+        <activity android:name="com.shs.vitlib.Notice"/>
+        <activity android:name="com.shs.vitlib.Display"/>
+		<activity android:name="com.shs.vitlib.Myfine"/>
+                
+          <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
